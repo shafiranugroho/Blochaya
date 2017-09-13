@@ -22,7 +22,6 @@
  }
 
  a .button1 {
-  border: none;
   text-decoration: none;
   color: red;
   padding: 15px 32px;
@@ -30,18 +29,22 @@
   font-size: 24px; 
   font-family: "Oswald";
   width: 100%;
-  
+  letter-spacing: 2px;
+  font-weight: 900;
   }
+
 
   /* GRID */
 
 
  .container {
+   width: 960px;
    margin-right: auto;
    margin-left: auto;
    padding-left: 15px;
    padding-right: 15px;
    position: relative;
+   padding-bottom: 50px;
  }
 
  .container-trend {
@@ -53,7 +56,6 @@
    padding-bottom: 500px;
    padding-top: 50px;
  }
-
 
  .container:before,
  .container:after {
@@ -68,7 +70,7 @@
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin: 20px;
  }
 
 @media (min-width: 768px) {
@@ -128,12 +130,15 @@ footer .logo {
 
 
   /* HEADER */
+
  header {
-   backgrouncolor:#000000;
-    background-size: auto;
+    background-color:#000000;
     text-align: center;
     display: block;
     position: relative;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
    }
 
  .header {
@@ -143,7 +148,6 @@ footer .logo {
 
 .header ul {
   margin: 0 auto;
-
 }
 
 .header ul li {
@@ -152,8 +156,7 @@ footer .logo {
 }
 
  header nav {
-   padding:1em 0;
-   background: #000000;
+   background-color: #000000;
  }
  header nav ul {
    display: block;
@@ -165,13 +168,10 @@ footer .logo {
    display: block;
    margin:15px 15px;
  }
- header nav ul > li.btn-outline {
-   padding:10px 15px;
-   border:2px solid #ffffff;
-   border-radius: 10px;
- }
+
  header nav ul > li.btn-outline:hover {
-   background:#ffffff;
+   background: #000000;
+   color: #f00;
  }
  header nav ul > li > a {
    color:#ffffff;
@@ -186,52 +186,9 @@ footer .logo {
   text-align: left;
   margin:0 auto;
   display:block;
-}
-header .hero {
-  text-align: center;
-  display: block;
-  position: relative;
-}
-header .hero h1 {
-  font-size: 600px;
-  line-height: 48px;
-  font-weight: normal;
-  margin: 95px 0 0;
-  padding-top: 200px;
-  padding-bottom: 70px;
-}
-header .hero h2 {
-  font-size: 70px;
-  line-height: 48px;
-  font-weight: bold;
-  margin: 50px 0 0;
-  padding-left: 110px;
-}
-header .hero p {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 100;
-  margin: 10px 0 40px;
-}
-header .hero img {
-  display: block;
-  margin: 0.5em auto 0;
-} 
-
- .animate {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+ 
 }
 
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
 
 /* BUTTONS */
 .btn {
@@ -243,6 +200,29 @@ header .hero img {
   background: #ff5111;
   border: 2px solid #ff5111;
   box-shadow: 0px 2px 0px 0px #382F2D;
+}
+
+/* SHELF */
+
+.shelf {
+  text-align: center;
+  display: block;
+  position: relative;
+  background: url("../images/pool-water.png") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  padding-top: 50px ;
+  padding-bottom: 0px;
+  }
+
+.shelf h1 {
+  color: #020202;
+  font-family: "Hello Stockholm";
+  font-size: 500px;
+  margin: 0;
+  vertical-align: middle;
 }
 
 /* BENEFITS */
@@ -268,10 +248,13 @@ header .hero img {
   vertical-align: middle;
 }
 .benefits h2 {
-  color: #020202;
-  font-size: 100px;
-  margin: 0;
-  vertical-align: middle
+  color: #f00;
+  font-size: 55px;
+  margin: 0 auto;
+  letter-spacing: 10px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left:50px;
 }
 
 .benefits h3 {
@@ -356,18 +339,24 @@ header .hero img {
   display: inline-block;
 }
 
-.float h2 {
-  color: #020202;
+.float h1 {
+  color: #ff0;
   font-size: 100px;
   margin: 0;
   vertical-align: middle;
+  font-family: "Oswald" ;
+  font-style: italic;
+  font-weight: 900;
 }
 
 .float h3 {
-  color: #020202;
-  font-size: 100px;
-  margin: 0;
-  vertical-align: middle
+  text-decoration: none;
+  color: #ffffff;
+  text-align: right;
+  font-size: 24px; 
+  font-family: "Oswald";
+  width: 100%;
+  letter-spacing: 2px;
 }
 
 .float p {
@@ -378,8 +367,64 @@ header .hero img {
 }
 
 .float img {
-    width:60%;
+    width:100%;
     height: auto;
+}
+
+/* FEEDBACK */
+.feedback {
+  text-align: center;
+  display: block;
+  position: relative;
+  background: #ff0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  padding-top: 50px ;
+  padding-bottom: 20px;
+  }
+
+.feedback ul {
+  margin: 0 auto;
+
+}
+
+.feedback ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.feedback h1 {
+  color: #009fff;
+  font-size: 150px;
+  margin: 0;
+  font-family: "Engravers MT" ;
+}
+
+.feedback h2 {
+  color: #000000;
+  font-size: 32px;
+  margin: 0;
+  font-family: "Cicle" ;
+}
+
+.feedback h3 {
+  text-decoration: none;
+  color: #000000;
+  text-align: right;
+  font-size: 24px; 
+  font-family: "Oswald";
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.feedback p {
+   font-size:32px;
+   line-height: 40px;
+   font-weight: bold;
+   margin-right: 20em;
+   letter-spacing: 1px;
 }
 
 /* PRICING */
