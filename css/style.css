@@ -44,7 +44,6 @@
    padding-left: 15px;
    padding-right: 15px;
    position: relative;
-   padding-bottom: 50px;
  }
 
  .container-trend {
@@ -288,6 +287,17 @@ footer .logo {
   display: inline-block;
 }
 
+.trend h1 a {
+
+  text-decoration: none;
+  color: #ea3131;
+  text-align: center;
+  font-size: 24px; 
+  font-family: "Oswald";
+  width: 100%;
+  letter-spacing: 2px;
+}
+
 .trend h2 {
   color: #020202;
   font-size: 100px;
@@ -326,7 +336,7 @@ footer .logo {
     -o-background-size: cover;
     background-size: cover;
   padding-top: 0px ;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   }
 
 .float ul {
@@ -349,7 +359,7 @@ footer .logo {
   font-weight: 900;
 }
 
-.float h3 {
+.float h3 a {
   text-decoration: none;
   color: #ffffff;
   text-align: right;
@@ -420,6 +430,130 @@ footer .logo {
 }
 
 .feedback p {
+   font-size:32px;
+   line-height: 40px;
+   font-weight: bold;
+   margin-right: 20em;
+   letter-spacing: 1px;
+}
+
+.pad {
+  padding-bottom: 50px;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  display: block;
+  position: relative;
+  background: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  padding-top: 70px ;
+  padding-bottom: 70px;
+  }
+
+.about ul {
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.about ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
+
+.about h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Oswald" ;
+  text-align: left;
+}
+
+.about h2 {
+  color: #000000;
+  font-size: 32px;
+  margin: 0;
+  font-family: "Cicle" ;
+}
+
+.about h3 {
+  text-decoration: none;
+  color: #000000;
+  text-align: right;
+  font-size: 24px; 
+  font-family: "Oswald";
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.about p {
+   font-size:18px;
+   line-height: 25px;
+   font-weight: 100;
+   margin-right: 20em;
+   letter-spacing: 1px;
+   color: #ffffff;
+   text-align: left;
+}
+
+/* LINKS */
+.links {
+  text-align: left;
+  display: block;
+  position: relative;
+  background: #bfbfbf;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  padding-top: 50px ;
+  padding-bottom: 70px;
+  }
+
+.links ul {
+  margin: 0 auto;
+
+}
+
+.links ul li a {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  line-height: 30px;
+}
+
+.links h1 {
+  color: #009fff;
+  font-size: 150px;
+  margin: 0;
+  font-family: "Engravers MT" ;
+}
+
+.links h2 {
+  color: #000000;
+  font-size: 32px;
+  margin: 0;
+  font-family: "Cicle" ;
+}
+
+.links h3 {
+  text-decoration: none;
+  color: #000000;
+  text-align: right;
+  font-size: 24px; 
+  font-family: "Oswald";
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.links p {
    font-size:32px;
    line-height: 40px;
    font-weight: bold;
@@ -572,6 +706,7 @@ footer {
   position: relative;
   overflow: hidden;
   z-index: 0;
+  padding-bottom: 45px;
 }
 footer p, footer nav ul {
   font-size: 14px;
@@ -579,6 +714,7 @@ footer p, footer nav ul {
   text-align: center;
   margin: 10px auto 0;
   padding:0;
+  vertical-align: 
 }
 footer nav ul li {
   list-style-type: none;
