@@ -998,3 +998,158 @@ footer .one-third {
   align-content: center;
 }
 
+/* CONTENT */
+ .content {
+  float: center;
+  width: 100%;
+  position: relative;
+  background: #000000;
+ }
+ .content .header {
+  margin: 0 1% 20px;
+ }
+ .content .header h1 {
+  font-family: "Oswald";
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 44px;
+  float: left;
+  display: inline-block;
+ }
+ .content .header > a {
+  float: right;
+ }
+ .content-item {
+  width: 96%;
+  margin: 0 2% 25px;
+  float: left;
+  display: block;
+ }
+ .item-box {
+  display: block;
+  height: 230px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0,.40);
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+ }
+ @media (min-width: 460px) {
+  .content {
+    padding: 1.5em 1%;
+    float: right;
+    width: 90%;
+    position: relative;
+  }
+  .content-item {
+    width: 46%;
+    margin: 0 2% 25px;
+    float: left;
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .content {
+      padding: 1.5em 5%;
+      float: right;
+      width: 90%;
+      position: relative;
+    }
+    .content > .container {
+      width: 700px;
+    }
+    .content-item {
+      width: 31.33333%;
+      margin: 0 1% 25px;
+    }
+  }
+    @media (min-width: 992px) {
+      .content {
+        padding: 1.5em 1%;
+        float: right;
+        width: 83.33333333%;
+        position: relative;
+      }
+      .content > .container {
+        width: auto;
+      }
+      .content-item {
+        width: 23%;
+        margin: 0 1 25px;
+      }
+      .item-box > img {
+        position: absolute;
+        height: 100%;
+        width: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      .item-box h2 {
+        font-family: "Nunito";
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 17px;
+        margin: 0;
+      }
+      .item-box h2 a {
+        color: ##561d68;
+        text-decoration: none;
+      }
+      .itme-box h2 img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 2px;
+        margin-right: 5px;
+      }
+      .item-box p {
+        font-size: 14px;
+        color: #333333;
+        line-height: 18px;
+        margin: 5px 0 0;
+      }
+
+/* HEAD */
+
+.head {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+
+.head ul {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.head ul li {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ head nav {
+   background-color: #000000;
+ }
+ head nav ul {
+   display: block;
+   text-align: center;
+   float:right;
+   vertical-align: middle;
+ }
+ head nav ul > li {
+   list-style-type: none;
+   display: block;
+   margin:15px 15px;
+   vertical-align: middle;
+ }
+
+.head h1{
+   font-family: "Cicle";
+   color: #000000;
+   font-size: 18px;
+ }
