@@ -111,10 +111,12 @@ footer p, footer nav ul {
   text-align: center;
   margin: 10px auto 0;
   padding:0;
+  text-decoration: none;
 }
 footer nav ul li {
   list-style-type: none;
   display: inline;
+  text-decoration: none;
 }
 footer nav ul li a {
   color: #FFFFFF;
@@ -194,6 +196,8 @@ footer .logo {
 }
 
 
+
+
 /* BUTTONS */
 .btn {
   color: #FFFFFF;
@@ -238,11 +242,12 @@ footer .logo {
   }
 
 .shelf h1 {
-  color: #020202;
+  color: #0038d0;
   font-family: "Hello Stockholm";
   font-size: 500px;
   margin: 0;
   vertical-align: middle;
+  text-shadow: 2px 2px 4px #000000
 }
 
 /* BENEFITS */
@@ -332,6 +337,8 @@ footer .logo {
   margin: 0;
   vertical-align: middle;
   font-style: italic;
+  margin-left: -100px;
+  padding-top: 40px;
 }
 
 .trend p {
@@ -339,6 +346,7 @@ footer .logo {
    line-height: 19px;
    font-weight: 100;
    margin-right: 20em;
+   margin-left: -70px;
    letter-spacing: 1px;
 }
 
@@ -423,8 +431,8 @@ footer .logo {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  padding-top: 50px ;
-  padding-bottom: 20px;
+  padding-top: 10px ;
+  padding-bottom: 10px;
   }
 
 .feedback ul {
@@ -981,7 +989,7 @@ footer .one-third {
   background: #ffffff;
   padding-top: 70px ;
   padding-bottom: 70px;
-  }
+}
 
   .items h1 {
   color: #000000;
@@ -993,123 +1001,11 @@ footer .one-third {
 }
 
 
-.items ul img {
-  margin: 0 auto;
+.items ul {
+  margin: auto;
   align-content: center;
 }
 
-/* CONTENT */
- .content {
-  float: center;
-  width: 100%;
-  position: relative;
-  background: #000000;
- }
- .content .header {
-  margin: 0 1% 20px;
- }
- .content .header h1 {
-  font-family: "Oswald";
-  font-weight: 600;
-  margin: 0 auto;
-  font-size: 36px;
-  color: #ffffff;
-  line-height: 44px;
-  float: left;
-  display: inline-block;
- }
- .content .header > a {
-  float: right;
- }
- .content-item {
-  width: 96%;
-  margin: 0 2% 25px;
-  float: left;
-  display: block;
- }
- .item-box {
-  display: block;
-  height: 230px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0,.40);
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
- }
- @media (min-width: 460px) {
-  .content {
-    padding: 1.5em 1%;
-    float: right;
-    width: 90%;
-    position: relative;
-  }
-  .content-item {
-    width: 46%;
-    margin: 0 2% 25px;
-    float: left;
-    display: block;
-  }
-  @media (min-width: 768px) {
-    .content {
-      padding: 1.5em 5%;
-      float: right;
-      width: 90%;
-      position: relative;
-    }
-    .content > .container {
-      width: 700px;
-    }
-    .content-item {
-      width: 31.33333%;
-      margin: 0 1% 25px;
-    }
-  }
-    @media (min-width: 992px) {
-      .content {
-        padding: 1.5em 1%;
-        float: right;
-        width: 83.33333333%;
-        position: relative;
-      }
-      .content > .container {
-        width: auto;
-      }
-      .content-item {
-        width: 23%;
-        margin: 0 1 25px;
-      }
-      .item-box > img {
-        position: absolute;
-        height: 100%;
-        width: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-      }
-      .item-box h2 {
-        font-family: "Nunito";
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 17px;
-        margin: 0;
-      }
-      .item-box h2 a {
-        color: ##561d68;
-        text-decoration: none;
-      }
-      .itme-box h2 img {
-        width: 16px;
-        height: 16px;
-        position: relative;
-        top: 2px;
-        margin-right: 5px;
-      }
-      .item-box p {
-        font-size: 14px;
-        color: #333333;
-        line-height: 18px;
-        margin: 5px 0 0;
-      }
 
 /* HEAD */
 
@@ -1153,3 +1049,162 @@ footer .one-third {
    color: #000000;
    font-size: 18px;
  }
+
+ /* IDEAS */
+ .ideas {
+  float: center;
+  width: 100%;
+  position: relative;
+  background: #000000;
+ }
+ .ideas .header {
+  margin: 0 1% 20px;
+ }
+ .ideas .header h1 {
+  font-family: "Oswald";
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 44px;
+  float: left;
+  display: inline-block;
+ }
+ .ideas .header > a {
+  float: right;
+ }
+ .ideas-item {
+  width: 96%;
+  margin: 0 2% 25px;
+  float: left;
+  display: block;
+ }
+ .item-box {
+  display: block;
+  height: 230px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0,.40);
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+ }
+ @media (min-width: 460px) {
+  .ideas {
+    padding: 1.5em 1%;
+    float: right;
+    width: 90%;
+    position: relative;
+  }
+  .ideas-item {
+    width: 46%;
+    margin: 0 2% 25px;
+    float: left;
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .ideas {
+      padding: 1.5em 5%;
+      float: right;
+      width: 90%;
+      position: relative;
+    }
+    .ideas > .container {
+      width: 700px;
+    }
+    .ideas-item {
+      width: 31.33333%;
+      margin: 0 1% 25px;
+    }
+  }
+    @media (min-width: 992px) {
+      .ideas {
+        padding: 1.5em 1%;
+        float: right;
+        width: 83.33333333%;
+        position: relative;
+      }
+      .ideas > .container {
+        width: auto;
+      }
+      .ideas-item {
+        width: 23%;
+        margin: 0 1 25px;
+      }
+      .item-box > img {
+        position: absolute;
+        height: 100%;
+        width: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+input[type=text] {
+    width: 130px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 30px 12px 30px;
+}
+
+/* BANNER */
+
+.banner {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  }
+
+.banner ul {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.banner ul li {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+ head nav {
+   background-color: #000000;
+ }
+ head nav ul {
+   display: block;
+   text-align: center;
+   float:right;
+   vertical-align: middle;
+ }
+ head nav ul > li {
+   list-style-type: none;
+   display: block;
+   margin:15px 15px;
+   vertical-align: middle;
+   text-align: middle;
+ }
+
+.banner h1{
+   font-family: "Cicle";
+   color: #000000;
+   font-size: 18px;
+   text-align: middle;
+   font-style: none;
+ }
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Cicle";
+}
