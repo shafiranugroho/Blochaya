@@ -239,7 +239,7 @@ footer .logo {
     -o-background-size: cover;
     background-size: cover;
   padding-top: 50px ;
-  padding-bottom: 0px;
+  margin-bottom: -250px;
   }
 
 .shelf h1 {
@@ -248,7 +248,8 @@ footer .logo {
   font-size: 500px;
   margin: 0;
   vertical-align: middle;
-  text-shadow: 2px 2px 4px #000000
+
+  opacity: 0;
 }
 
 /* BENEFITS */
@@ -273,6 +274,17 @@ footer .logo {
   margin: 0;
   vertical-align: middle;
 }
+
+.benefits h1 {
+  color: #0731ff;
+  font-family: "Hello Stockholm";
+  font-size: 600px;
+  margin: 0;
+  vertical-align: middle;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top:-450px;
+}
+
 .benefits h2 {
   color: #f00;
   font-size: 55px;
@@ -281,6 +293,7 @@ footer .logo {
   font-style: italic;
   font-weight: bold;
   margin-left:50px;
+  margin-top:-245px;
 }
 
 .benefits h3 {
