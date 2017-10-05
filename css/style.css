@@ -819,7 +819,7 @@ footer p, footer nav ul {
   text-align: center;
   margin: 10px auto 0;
   padding:0;
-  vertical-align: 
+  list-style-type: none;
 }
 footer nav ul li {
   list-style-type: none;
