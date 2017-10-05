@@ -53,7 +53,7 @@
    padding-right: 15px;
    position: relative;
    padding-bottom: 500px;
-   padding-top: 50px;
+   padding-top: 10px;
  }
 
  .container:before,
@@ -168,6 +168,7 @@ footer .logo {
    display: block;
    text-align: center;
    float:right;
+
  }
  header nav ul > li {
    list-style-type: none;
@@ -1140,13 +1141,13 @@ footer .one-third {
       }
 
 input[type=text] {
-    width: 130px;
+    width: 200px;
     height: 30px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #c5e5e7;
+    border-radius: 1px;
     font-size: 16px;
-    background-color: white;
+    background-color: #c5e5e7;
     background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -1156,11 +1157,13 @@ input[type=text] {
 /* BANNER */
 
 .banner {
+  background: #000000;
   background-image: url("../images/header.png");
   background-size: cover;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
+  max-height: 77px;
   }
 
 .banner ul {
@@ -1172,10 +1175,11 @@ input[type=text] {
   list-style-type: none;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 35px;
-  margin-bottom: 30px;
+  margin-top: 2px;
+  margin-bottom: 20px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 90px;
+  font-weight: 900;
 }
 
  head nav {
@@ -1208,3 +1212,55 @@ a {
   text-decoration: none;
   font-family: "Cicle";
 }
+
+.banner a img {
+  margin-top: -50px;
+}
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.1%;
+}
+.span_1_of_3 {
+  width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col { margin: 1% 0 1% 0%;}
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
