@@ -1002,7 +1002,7 @@ footer .one-third {
 .items {
   background: #ffffff;
   padding-top: 70px ;
-  padding-bottom: 70px;
+  margin-bottom: -180px;
 }
 
   .items h1 {
@@ -1017,6 +1017,38 @@ footer .one-third {
 
 .items ul {
   margin: auto;
+  align-content: center;
+}
+
+.items img {
+  margin-top:-230px;
+  align-content: center;
+}
+
+/* PICKS */
+
+.picks {
+  background: #ffffff;
+  padding-top: 70px ;
+  margin-bottom: -175px;
+  text-align: center;
+  margin-top:-270px;
+}
+
+  .picks h1 {
+  color: #000000;
+  font-family: "De Valencia";
+  font-size: 54px;
+  margin: 0;
+  vertical-align: middle;
+  word-spacing: 3px;
+  text-align: left;
+  padding-left: 100px;
+
+}
+
+.picks img {
+  margin-top:-250px;
   align-content: center;
 }
 
