@@ -1,8 +1,12 @@
 .grid {
+  padding: 0;
   max-width: 69em;
   list-style: none;
   margin: 30px auto;
-  padding: 0;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
 }
 
 .grid li {
@@ -25,7 +29,6 @@
   border: none;
   display: block;
   max-width: 100%;
-  justify-content: start; 
 }
 
 /* Effect 1: opacity */
