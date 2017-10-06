@@ -679,40 +679,44 @@ footer .logo {
   min-height: 485px;
   margin-top: 0px;
 }
-.box h3 {
-   border-top-right-radius: 10px;
-   border-top-left-radius: 10px;
-  font-family: "Crete Round";
-  font-weight: 300;
-  font-size: 14px;
+.box h2 {
+opacity:0;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+  font-family: "Cicle";
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 32px;
   color: #ffffff;
   text-transform: uppercase;
-  background: #197a87;
+  background: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0,40);
-  left: 0;
-  right: 0;
-  top: 0;
   text-align: center;
-  margin: 0 -15px 40px;
-  padding: 20px 0;
+  margin: 0 0px 0px 0;
+  padding-top: 370px;
+  padding-bottom:140px;
+  text-shadow: none;
 }
-.box h4 {
-  font-size: 50px;
-  font-weight: normal;
-  margin: 20px 0 10px;
-  color: #561d68;
-}
-.box h4 span {
+
+.box:hover h2 {
+opacity:0.5;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+  font-family: "Cicle";
+  letter-spacing: 2px;
+  font-weight: 900;
   font-size: 32px;
-  vertical-align: top;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0,40);
+  text-align: center;
+  margin: 0 0px 0px 0;
+  padding-top: 370px;
+  padding-bottom:140px;
+  text-shadow: none;
 }
-.box h4 span.month {
-  font-family: "Nunito";
-  font-weight: 100;
-  color: #888888;
-  font-size: 20px;
-  vertical-align: middle;
-}
+
 .box ul li {
   font-size: 18px;
   margin-bottom: 10px;
@@ -772,10 +776,10 @@ footer .logo {
   min-height: 550px;
   margin-top: 0px;
    background: #000000 url('http://images.hellogiggles.com/uploads/2017/02/02041347/362_DS_HM_2_375.jpg') no-repeat fixed;
-    -webkit-background-size: 80%;
-    -moz-background-size: 80%;
-    -o-background-size: 80%;
-    background-size: 80%;
+    -webkit-background-size: 90%;
+    -moz-background-size: 90%;
+    -o-background-size: 90%;
+    background-size: 90%;
 }
 
 .box.middle1:hover {
@@ -796,11 +800,13 @@ footer .logo {
   margin-top: 0px;
   transition: .5s ease;
   background: #ffffff url('http://lesfacons.com/wp-content/uploads/2017/04/ZIMMERMANN-SUMMER-2017-SWIMWEAR-COLLECTION-1.jpg') no-repeat fixed;
-    -webkit-background-size: 90%;
-    -moz-background-size: 90%;
-    -o-background-size: 90%;
-    background-size: 90%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
+
+
 
 /* TESTIMONIALS */
 .testimonials {
