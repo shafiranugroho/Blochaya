@@ -51,8 +51,8 @@ header h1 {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: relative;
 }
 
@@ -179,10 +179,15 @@ header h1 {
   list-style-type: none;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 0px;
+  margin-top: -4px;
   margin-right: 50px;
   margin-left: 50px;
   font-weight: 900;
+}
+
+.banner2 ul li a img {
+  margin-top: 2px;
+}
 }
 
  head nav {
@@ -217,14 +222,33 @@ a {
 }
 
 .banner2 a img {
-  margin-top: -50px;
+  margin-top: -52px;
+  padding-left:135px;
+
 }
 
-.banner2 ul li a img {
-  margin-left:-100px;
-  margin-top:5px;
-  width: 40px;
-  height:auto;
+
+
+.banner2 ul {
+  padding-left:10px;
+  padding-top:1px;
+  letter-spacing: 0.1px;
+}
+
+
+input[type=text] {
+    width: 200px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #c5e5e7;
+    border-radius: 1px;
+    font-size: 17px;
+    background-color: #c5e5e7;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 30px 12px 30px;
+    font-family: "Cicle";
 }
 
 /*  SECTIONS  */
@@ -277,7 +301,7 @@ a {
 footer {
   background-color: #000000;
   color: #FFFFFF;
-  height: 70px;
+  height: 100px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -308,7 +332,7 @@ footer .logo {
 
 /* WHITE */
 
-.header .white {
+white {
   text-align: center;
   display: block;
   position: relative;
@@ -328,5 +352,37 @@ footer .logo {
 header img {
 width: 990px;
 margin-top:60px;
-margin-left:-27px;
+margin-left:0px;
 }
+
+header .container{
+  height:22px;
+}
+
+header .container ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+header .container ul li a{
+  color: #ffffff;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top:-50px;
+  padding-left:-50px;
+  margin-bottom:50px;
+
+}
+
+header p img {
+margin-left: 230px;
+width: 66%;
+}
+
+
+
+
+
+
+
+
