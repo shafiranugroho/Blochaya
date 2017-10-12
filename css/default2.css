@@ -220,6 +220,13 @@ a {
   margin-top: -50px;
 }
 
+.banner2 ul li a img {
+  margin-left:-100px;
+  margin-top:5px;
+  width: 40px;
+  height:auto;
+}
+
 /*  SECTIONS  */
 .section {
   clear: both;
