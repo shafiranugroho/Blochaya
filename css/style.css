@@ -644,8 +644,10 @@ footer .logo {
   background-size: auto;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  margin-bottom:-40px;
 }
+
 
 .pricing h2 {
   color: #ffffff;
@@ -691,31 +693,27 @@ opacity:0;
   letter-spacing: 2px;
   font-weight: 900;
   font-size: 32px;
-  color: #ffffff;
+  color: red;
   text-transform: uppercase;
-  background: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0,40);
   text-align: center;
-  margin: 0 0px 0px 0;
+  margin: 0px 0px 0px 0px;
   padding-top: 370px;
   padding-bottom:130px;
   text-shadow: none;
 }
 
 .box:hover h2 {
-opacity:0.5;
-   border-top-right-radius: 4px;
-   border-top-left-radius: 4px;
   font-family: "Cicle";
   letter-spacing: 2px;
   font-weight: 900;
   font-size: 16px;
-  color: #ffffff;
+  color: red;
+opacity:1;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
   text-transform: uppercase;
-  background: #ffffff;
-  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0,40);
   text-align: center;
-  margin: 0 0px 0px 0;
   padding-top: 470px;
   padding-bottom: 30px;
   text-shadow: none;
@@ -753,6 +751,7 @@ opacity:0.5;
 }
 
 .box.middle2 {
+  opacity:0.8;
   min-height: 550px;
   margin-top: 0px;
    background: #000000 url("../images/city3.jpg") no-repeat fixed;
@@ -764,6 +763,7 @@ opacity:0.5;
 }
 
 .box.middle1 {
+  opacity:0.8;
   min-height: 550px;
   margin-top: 0px;
    background: #000000 url("../images/mountain.png") no-repeat fixed;
@@ -775,6 +775,7 @@ opacity:0.5;
 }
 
 .box.middle3 {
+  opacity:0.8;
   min-height: 550px;
   margin-top: 0px;
    background: #000000 url("../images/beach2.png") no-repeat fixed;
@@ -802,7 +803,7 @@ opacity:0.5;
   min-height: 550px;
   margin-top: 0px;
   transition: .5s ease;
-  background: #ffffff url('http://www.readersdigest.ca/wp-content/uploads/2015/10/best-hiking-trails-canada.jpg') no-repeat fixed;
+  background: #000000 url('http://www.readersdigest.ca/wp-content/uploads/2015/10/best-hiking-trails-canada.jpg') no-repeat fixed;
     -webkit-background-size: 85%;
     -moz-background-size: 85%;
     -o-background-size: 85%;
@@ -814,7 +815,7 @@ opacity:0.5;
   min-height: 550px;
   margin-top: 0px;
   transition: .5s ease;
-  background: #ffffff url('http://lesfacons.com/wp-content/uploads/2017/04/ZIMMERMANN-SUMMER-2017-SWIMWEAR-COLLECTION-1.jpg') no-repeat fixed;
+  background: #000000 url('http://lesfacons.com/wp-content/uploads/2017/04/ZIMMERMANN-SUMMER-2017-SWIMWEAR-COLLECTION-1.jpg') no-repeat fixed;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -1390,8 +1391,6 @@ a {
 }
 
 
-
-
 .try {
   background: #000000;
   background-size: auto;
@@ -1419,8 +1418,7 @@ a {
   font-size: 45px;
   font-weight: 600;
   color: #ffffff;
-  margin: 50px 15 0px 15;
-  padding: 300px 0 0px 0;
+  padding: 10px 0 0px 0;
 }
 
 .image {
@@ -1436,7 +1434,7 @@ a {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
@@ -1450,16 +1448,19 @@ a {
   opacity: 1;
 }
 
+.containertry:hover p {
+  opacity: 0;
+}
+
 .text a {
   background-color: #ff8d00;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 50px;
   text-shadow: none;
   letter-spacing: 2px;
 }
-
 
 .try ul {
   margin: 0 auto;
@@ -1490,6 +1491,7 @@ a {
   margin-bottom: 10px;
   font-weight: 100;
 }
+
 
 
 
